@@ -100,7 +100,7 @@ class LeitorDeLibras(QMainWindow):
         Este código consiste em atualizar os frames com base no mediapipe. Sem ele, a função detectar_libra() não funcionará.
 
         OS COMENTÁRIOS ABAIXO SÃO PARA FINS DE DESENVOLVIMENTO E/OU TESTE.
-        Os comandos em comentários, desenho dos pontos e desenho das conexões, são usado para mostrar os pontos e articulações, facilitando a detecção das condições. Caso esteja testando ou experimentando, não é necessária a utilização dos mesmos.
+        Os comandos em comentários, desenho dos pontos e desenho das conexões, são usado para mostrar os pontos e articulações, facilitando a detecção das condições. Caso esteja testando, não é necessária a utilização dos mesmos.
         No mediapipe, geralmente há a variável img. Neste código, será usada frame, que tem a mesma finalidade e parâmetro.
         x e y são para calcular a mão, assim como h e w.
 
